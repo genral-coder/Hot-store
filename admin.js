@@ -258,7 +258,8 @@
   async function uploadImage(file) {
     const ext = (file.name.split(".").pop() || "png").toLowerCase();
     const name = "prod-" + Date.now() + "." + ext;
-    const path = "images/products/" + name;
+    const cat = $("f_category").value || "products";
+    const path = "images/products/" + cat + "/" + name;
     const reader = new FileReader();
     const b64 = await new Promise((resolve, reject) => {
       reader.onload = () => resolve(reader.result.split(",")[1]);
