@@ -940,7 +940,7 @@
     "image": "",
     "type": null,
     "class": "S++",
-    "sold": false,
+    "sold": true,
     "popular": false,
     "likes": 0
   },
@@ -967,7 +967,7 @@
     "image": "",
     "type": null,
     "class": "X",
-    "sold": false,
+    "sold": true,
     "popular": false,
     "likes": 0
   },
