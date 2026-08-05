@@ -130,7 +130,7 @@
     sha = data.content.sha;
   }
 
-  /* ---------- الجدول ---------- */
+  /* ---------- الكروت ---------- */
   function renderTable() {
     const q = $("adminSearch").value.trim().toLowerCase();
     const cat = $("adminFilter").value;
@@ -143,27 +143,36 @@
       return true;
     });
     $("adminEmpty").hidden = list.length > 0;
-    const body = $("adminBody");
-    body.innerHTML = "";
-    list.forEach((p) => {
-      const tr = document.createElement("tr");
-      tr.className = p.sold ? "sold" : "";
-      tr.innerHTML = `
-        <td class="td-img">${thumb(p)}</td>
-        <td>
-          <b>${esc(p.name)}</b>
-          ${p.nameAr ? `<span class="sub">${esc(p.nameAr)}</span>` : ""}
-        </td>
-        <td>${CAT_EMOJI[p.category] || ""} ${esc(CAT_NAMES[p.category] || p.category)}</td>
-        <td>${esc(p.price)}</td>
-        <td><input type="checkbox" data-sold="${p.id}" ${p.sold ? "checked" : ""} /></td>
-        <td class="td-actions">
-          <button class="btn-sm" data-edit="${p.id}">Edit</button>
-          <button class="btn-sm danger" data-del="${p.id}">Delete</button>
-        </td>`;
-      body.appendChild(tr);
+    const wrap = $("adminCards");
+    wrap.innerHTML = "";
+    list.forEach((p, i) => {
+      wrap.appendChild(adminCard(p, i));
     });
     updateStats();
+  }
+
+  function adminCard(p, i) {
+    const card = document.createElement("article");
+    card.className = "a-card" + (p.sold ? " sold" : "");
+    card.style.animationDelay = (i * 0.04) + "s";
+    card.innerHTML = `
+      <div class="a-img">
+        ${thumb(p)}
+        ${p.sold ? `<span class="p-badge sold">SOLD</span>` : ""}
+        ${p.popular ? `<span class="p-badge popular">★</span>` : ""}
+      </div>
+      <div class="a-body">
+        <span class="a-cat">${CAT_EMOJI[p.category] || ""} ${esc(CAT_NAMES[p.category] || p.category)}</span>
+        <h3>${esc(p.name)}</h3>
+        ${p.nameAr ? `<span class="a-sub">${esc(p.nameAr)}</span>` : ""}
+        <span class="a-price">${esc(p.price)}</span>
+        <label class="a-sold"><input type="checkbox" data-sold="${p.id}" ${p.sold ? "checked" : ""} /> <span>Sold / مباع</span></label>
+        <div class="a-actions">
+          <button class="btn-sm" data-edit="${p.id}">Edit</button>
+          <button class="btn-sm danger" data-del="${p.id}">Delete</button>
+        </div>
+      </div>`;
+    return card;
   }
 
   function thumb(p) {
