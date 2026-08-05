@@ -75,6 +75,8 @@ const I18N = {
     cancel: "Cancel",
     continueDiscord: "Continue to Discord ↗",
     openingDiscord: "Opening Discord...",
+    agreeRules: "I Agree & Continue",
+    rulesNeeded: "You must accept the Purchase Rules before continuing.",
     resultsFor: 'Results for "{q}"',
     noResults: 'No products found for "<b>{q}</b>". Try another search.',
   },
@@ -117,6 +119,8 @@ const I18N = {
     cancel: "إلغاء",
     continueDiscord: "متابعة للديسكورد ↗",
     openingDiscord: "جاري فتح الديسكورد...",
+    agreeRules: "أوافق وأكمل",
+    rulesNeeded: "يجب عليك قبول قوانين الشراء قبل المتابعة.",
     resultsFor: 'نتائج البحث عن "{q}"',
     noResults: 'مفيش منتجات لـ "<b>{q}</b>". جرب بحث تاني.',
   },
@@ -1242,6 +1246,8 @@ function openRules() {
   if (rulesLang === null) rulesLang = lang();
   renderRules();
   updateRulesLangBtn();
+  $("rmAgreeRow").hidden = true;
+  _rulesNext = null;
   openModal("rulesModal");
 }
 
@@ -1510,7 +1516,19 @@ function openDonate(p) {
     setTimeout(() => window.open(CONFIG.discordUrl, "_blank"), 350);
     closeModal("donateModal");
   };
-  openModal("donateModal");
+  confirmRules(() => openModal("donateModal"));
+}
+
+/* ---------- إلزام قراءة القوانين قبل الشراء ---------- */
+let _rulesNext = null;
+function confirmRules(next) {
+  if (rulesLang === null) rulesLang = lang();
+  renderRules();
+  updateRulesLangBtn();
+  $("rmAgreeRow").hidden = false;
+  $("rmAgreeBtn").textContent = t("agreeRules");
+  _rulesNext = next;
+  openModal("rulesModal");
 }
 
 /* ---------- فتح/إغلاق المودال ---------- */
@@ -1573,6 +1591,13 @@ function bindEvents() {
     rulesLang = rl() === "en" ? "ar" : "en";
     renderRules();
     updateRulesLangBtn();
+  });
+  $("rmAgreeBtn").addEventListener("click", () => {
+    closeModal("rulesModal");
+    $("rmAgreeRow").hidden = true;
+    const next = _rulesNext;
+    _rulesNext = null;
+    if (next) next();
   });
 
   $("langBtn").addEventListener("click", () => setLang(lang() === "en" ? "ar" : "en"));

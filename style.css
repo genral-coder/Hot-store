@@ -571,6 +571,14 @@ main { max-width: 1400px; margin: 0 auto; padding: 28px 34px 60px; }
 .rules-modal .rules-panel { padding: 0; border: none; background: none; }
 .rules-modal .pay-methods { margin-top: 20px; }
 
+/* صف قبول القوانين (لازم للشراء) */
+.rules-agree {
+  margin-top: 22px; padding-top: 20px;
+  border-top: 1px solid var(--border);
+  display: flex; justify-content: center;
+}
+.rules-agree .btn { min-width: 240px; }
+
 /* ─────────── 11.5) الفوتر ═─────────── */
 .site-footer {
   border-top: 1px solid var(--border);
@@ -651,7 +659,6 @@ main { max-width: 1400px; margin: 0 auto; padding: 28px 34px 60px; }
   .nav-actions { gap: 4px; }
   .nav-actions .btn { padding: 6px 8px; font-size: 11px; }
   .icon-btn { width: 30px; height: 30px; font-size: 14px; }
-  .nav-actions #rulesBtn { display: none; }
 }
 
 @media (max-width: 560px) {
