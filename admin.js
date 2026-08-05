@@ -85,7 +85,7 @@
       if (!res.ok) throw new Error("GitHub error (" + res.status + ")");
       const data = await res.json();
       sha = data.sha;
-      const text = atob(data.content.replace(/\n/g, ""));
+      const text = b64ToUtf8(data.content);
       products = JSON.parse(text);
       if (!Array.isArray(products)) throw new Error("products.json must be an array");
       renderTable();
@@ -94,9 +94,24 @@
     }
   }
 
+  /* ---------- ترميز/فك ترميز صحيح لـ UTF-8 (عشان العربي) ---------- */
+  function b64ToUtf8(b64) {
+    const bin = atob(b64.replace(/\n/g, ""));
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return new TextDecoder("utf-8").decode(bytes);
+  }
+
+  function utf8ToB64(str) {
+    const bytes = new TextEncoder().encode(str);
+    let bin = "";
+    bytes.forEach((b) => (bin += String.fromCharCode(b)));
+    return btoa(bin);
+  }
+
   /* ---------- حفظ المنتجات على GitHub ---------- */
   async function saveToGithub(message) {
-    const content = btoa(unescape(encodeURIComponent(JSON.stringify(products, null, 2))));
+    const content = utf8ToB64(JSON.stringify(products, null, 2));
     const body = {
       message: message || "Update products",
       content: content,
