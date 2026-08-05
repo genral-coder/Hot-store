@@ -1024,5 +1024,32 @@
     "sold": false,
     "popular": false,
     "likes": 0
+  },
+  {
+    "id": 39,
+    "category": "mlo",
+    "name": "Al Dente's",
+    "nameAr": "أل دينتيز",
+    "short": "A restaurant, ready for business.",
+    "shortAr": "مطعم جاهز للشغل.",
+    "description": "",
+    "descriptionAr": "",
+    "features": [
+      "15$ Monthly",
+      "Restaurant location",
+      "In-game ready"
+    ],
+    "featuresAr": [
+      "15$ شهرياً",
+      "موقع مطعم",
+      "جاهزة داخل اللعبة"
+    ],
+    "price": "15$ Monthly.",
+    "image": "images/products/prod-1785904345867.png",
+    "type": "restaurant",
+    "class": null,
+    "sold": false,
+    "popular": false,
+    "likes": 0
   }
 ]
