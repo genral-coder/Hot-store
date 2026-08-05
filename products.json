@@ -157,7 +157,7 @@
     "image": "images/products/mlo/Tropical Heights.png",
     "type": "nightclub",
     "class": null,
-    "sold": false,
+    "sold": true,
     "popular": false,
     "likes": 0
   },
