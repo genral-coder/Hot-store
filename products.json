@@ -23,7 +23,7 @@
     "type": null,
     "class": null,
     "sold": false,
-    "popular": false,
+    "popular": true,
     "likes": 0
   },
   {
