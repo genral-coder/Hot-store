@@ -1035,6 +1035,25 @@ const catMap = Object.fromEntries(CATEGORIES.map((c) => [c.id, c]));
 
 let state = { view: "home", category: null, query: "", vehClass: null };
 
+/* ---------- حفظ/استرجاع الحالة الحالية (عشان الريفريش) ---------- */
+const stateKey = "hs_view_state";
+function saveState() {
+  try { localStorage.setItem(stateKey, JSON.stringify(state)); } catch (e) {}
+}
+function loadSavedState() {
+  try {
+    const raw = localStorage.getItem(stateKey);
+    if (!raw) return;
+    const s = JSON.parse(raw);
+    if (!s || typeof s.view !== "string") return;
+    if (s.view === "category" && !catMap[s.category]) return;
+    if (s.view === "vehicles" || (s.view === "category" && s.category === "vehicles")) {
+      if (s.vehClass && !VEHICLE_CLASSES.some((c) => c.id === s.vehClass)) s.vehClass = null;
+    }
+    state = s;
+  } catch (e) {}
+}
+
 /* ---------- تطبيق الإعدادات على الصفحة ---------- */
 function applyConfig() {
   document.title = CONFIG.serverName + " — FiveM Store";
@@ -1394,6 +1413,7 @@ function openVehClass(cls) {
   renderNav();
   closeNav();
   window.scrollTo({ top: 0, behavior: "auto" });
+  saveState();
 }
 
 /* ---------- فتح تصنيف ---------- */
@@ -1409,6 +1429,7 @@ function openCategory(id) {
   renderNav();
   closeNav();
   window.scrollTo({ top: 0, behavior: "auto" });
+  saveState();
 }
 
 /* ---------- البحث ---------- */
@@ -1422,6 +1443,7 @@ function doSearch(q) {
   renderStore(t("resultsFor").replace("{q}", q), getSearchResults(q));
   renderNav();
   closeNav();
+  saveState();
 }
 
 /* ---------- نظام الإعجابات ❤️ ---------- */
@@ -1711,7 +1733,9 @@ async function loadRemoteProducts() {
 applyConfig();
 applyLang();
 renderNav();
-renderHome();
+loadSavedState();
+if (state.view === "home") renderHome();
+else renderCurrentView();
 initHeroObserver();
 initHeaderScroll();
 initParticles();
