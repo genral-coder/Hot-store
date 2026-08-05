@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hot Pursuit Store — FiveM Store</title>
+
+  <!-- الخطوط (لو الإنترنت مش متاح هتشتغل بالخطوط الافتراضية) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- خلفية متحركة -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <!-- ═══════════ الهيدر العلوي (اللوجو + التصنيفات) ═══════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <button id="menuBtn" class="icon-btn nav-menu-btn" aria-label="Open menu">☰</button>
+
+      <!-- 👇 اللوجو واسم السيرفر (مشكور عليهما) -->
+      <button class="nav-brand" data-action="home" aria-label="Go to home">
+        <span class="logo-wrap">
+          <img src="images/Asset_2.png" id="navLogo" alt="logo" onerror="this.style.display='none'" />
+        </span>
+        <span class="nav-text">
+          <span id="navName">Hot Pursuit Store</span>
+          <span id="navTagline">Premium FiveM Store</span>
+        </span>
+      </button>
+
+      <!-- التصنيفات بتتحط هنا تلقائياً من script.js -->
+      <nav id="categoryNav" class="nav-links"></nav>
+
+      <div class="nav-actions">
+        <button id="rulesBtn" class="btn btn-outline btn-sm">Purchase Rules</button>
+        <button id="langBtn" class="btn btn-outline btn-sm" aria-label="Change language">العربية</button>
+        <a href="https://discord.gg/REqWKXnrku" target="_blank" rel="noopener" class="btn btn-discord btn-sm" id="navDiscord">Discord ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- خلفية معتمة عند فتح قائمة الموبايل -->
+  <div id="overlay"></div>
+
+  <!-- ═══════════ المحتوى الرئيسي ═══════════ -->
+  <main>
+    <header class="topbar">
+      <h2 id="pageTitle">Home</h2>
+      <!-- 🔍 البحث -->
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Search products, categories..." autocomplete="off" />
+      </div>
+    </header>
+
+    <!-- ▸ صفحة الهوم -->
+    <section id="view-home">
+      <!-- Hero -->
+      <div class="hero">
+        <img src="images/Asset_2.png" alt="logo" class="hero-logo" id="heroLogo" onerror="this.style.display='none'" />
+        <h1 id="heroName">Hot Pursuit Store</h1>
+        <p class="hero-tagline" id="heroTagline">Premium FiveM Roleplay Store</p>
+        <p class="hero-desc" id="heroDesc">Your one-stop shop for vehicles, weapons, scripts and more. Donate fast, get it in-game instantly.</p>
+        <div class="hero-actions">
+          <a href="https://discord.gg/REqWKXnrku" target="_blank" rel="noopener" class="btn btn-discord btn-lg" id="joinDiscord">Join Discord</a>
+        </div>
+        <div class="hero-chips">
+          <span id="chipSupport">⏱ 24/7 Support</span>
+          <span id="chipSafe">🛡 Safe & Secure</span>
+        </div>
+      </div>
+
+      <!-- اختصارات التصنيفات -->
+      <div class="section">
+        <h3 class="section-title" id="secCategories">Categories</h3>
+        <div id="catShortcuts" class="cat-shortcuts"></div>
+      </div>
+
+      <!-- المنتجات الأكثر طلباً -->
+      <div class="section">
+        <h3 class="section-title" id="secPopular">Popular Products <span class="title-badge">⭐</span></h3>
+        <div id="popularGrid" class="grid"></div>
+      </div>
+    </section>
+
+    <!-- ▸ صفحة الستور (التصنيف/البحث) -->
+    <section id="view-store" hidden>
+      <div class="store-head">
+        <h3 id="storeTitle">Vehicles</h3>
+        <span id="storeCount" class="store-count"></span>
+      </div>
+      <div id="productGrid" class="grid"></div>
+    </section>
+  </main>
+
+  <!-- ═══════════ الفوتر — طرق الدفع ═══════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-pay">
+        <span class="pay-label" id="footerPayLabel">Payment Methods:</span>
+        <div id="footerPay" class="footer-pay-chips"></div>
+      </div>
+      <p class="footer-note">© <span id="footerName">Hot Pursuit Store</span> · <a href="admin.html" rel="noopener" style="color:inherit;opacity:.5;text-decoration:none">Admin</a></p>
+    </div>
+  </footer>
+
+  <!-- ═══════════ مودال تفاصيل المنتج ═══════════ -->
+  <div class="modal" id="productModal" role="dialog" aria-modal="true">
+    <div class="modal-card product-layout">
+      <button class="modal-close" data-close aria-label="Close">✕</button>
+      <div class="m-img"><img id="pmImg" alt="Product" /></div>
+      <div class="m-info">
+        <span id="pmCat" class="p-cat"></span>
+        <h2 id="pmName"></h2>
+        <p id="pmDesc" class="m-desc"></p>
+        <ul id="pmFeatures" class="m-features"></ul>
+        <div class="m-foot">
+          <span id="pmPrice" class="p-price"></span>
+          <button id="pmLike" class="btn btn-outline btn-sm like-inline" aria-label="Like">
+            <span class="like-ico">♥</span> <span id="pmLikeCount">0</span>
+          </button>
+          <button id="pmDonate" class="btn btn-primary">Donate 💳</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ مودال تأكيد الديسكورد ═══════════ -->
+  <div class="modal" id="donateModal" role="dialog" aria-modal="true">
+    <div class="modal-card donate-layout">
+      <button class="modal-close" data-close aria-label="Close">✕</button>
+      <div class="donate-icon">🎫</div>
+      <h2 id="dmTitle">Purchase Ticket</h2>
+      <p id="dmText">You will be redirected to Discord to open a donation ticket.</p>
+      <div class="donate-actions">
+        <button class="btn btn-outline" id="dmCancel">Cancel</button>
+        <button class="btn btn-discord" id="dmGo">Continue to Discord ↗</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ مودال قوانين الشراء ═══════════ -->
+  <div class="modal" id="rulesModal" role="dialog" aria-modal="true">
+    <div class="modal-card rules-modal">
+      <button class="modal-close" data-close aria-label="Close">✕</button>
+      <h2 id="rmTitle">Purchase Rules</h2>
+      <button id="rmLangBtn" class="btn btn-outline btn-sm">العربية</button>
+      <div id="rulesBox" class="rules-panel"></div>
+    </div>
+  </div>
+
+  <!-- رسالة صغيرة أسفل الشاشة -->
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
