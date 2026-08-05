@@ -1032,8 +1032,8 @@
     "nameAr": "أل دينتيز",
     "short": "A restaurant, ready for business.",
     "shortAr": "مطعم جاهز للشغل.",
-    "description": "",
-    "descriptionAr": "",
+    "description": "Al Dente's restaurant — a restaurant. Costs 15$ Monthly.",
+    "descriptionAr": "أل دينتيز — مطعم. التكلفة 15$ شهرياً.",
     "features": [
       "15$ Monthly",
       "Restaurant location",
