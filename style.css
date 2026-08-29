@@ -22,6 +22,9 @@
 /* ─────────── 2) أساسيات ─────────── */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+/* ─── إيموجي Twemoji موحّد في كل الأجهزة ─── */
+img.emoji { height: 1em; width: 1em; margin: 0 .05em 0 .1em; vertical-align: -0.1em; display: inline-block; }
+
 /* يضمن إخفاء أي عنصر عليه خاصية hidden (حتى لو كان له display من كلاس) */
 [hidden] { display: none !important; }
 

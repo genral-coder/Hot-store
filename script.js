@@ -2138,6 +2138,24 @@ function initParticles() {
   tick();
 }
 
+/* ---------- إيموجي موحّد (Twemoji) — نفس الشكل لكل الأجهزة ---------- */
+function initTwemoji() {
+  const opts = { folder: "svg", ext: ".svg" };
+  const parse = () => {
+    if (!window.twemoji) return;
+    try { twemoji.parse(document.body, opts); } catch (e) { /* ignore */ }
+  };
+  parse();
+  if (window.twemoji) {
+    new MutationObserver(() => parse()).observe(document.body, { childList: true, subtree: true });
+  } else {
+    const iv = setInterval(() => {
+      if (window.twemoji) { clearInterval(iv); parse(); }
+    }, 300);
+    setTimeout(() => clearInterval(iv), 5000);
+  }
+}
+
 /* ---------- تحميل المنتجات من products.json (مع fallback للمحلي) ---------- */
 async function loadRemoteProducts() {
   try {
@@ -2171,3 +2189,4 @@ loadRemoteProducts().then((ok) => {
     initReveal();
   }
 });
+initTwemoji();
