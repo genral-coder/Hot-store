@@ -11,7 +11,7 @@ const CONFIG = {
   tagline: "Premium FiveM Roleplay Store",        // 👈 الجملة تحت الاسم
   description:
     "Thank you for supporting Hot Pursuit. Your donations to Hot Pursuit are highly appreciated.",     // 👈 وصف السيرفر
-  logoImage: "images/Asset_2.png",                // 👈 صورة اللوجو (سيبها "" لو معندكش صورة)
+  logoImage: "images/Asset_2.webp",                // 👈 صورة اللوجو (سيبها "" لو معندكش صورة)
   logoText: "HS",                                 // 👈 حرفين بيظهروا لو مفيش لوجو
   discordUrl: "discord://-/channels/1341426480827203584/1341516123123744881",   // 👈 ⭐ بيفتح تذاكر الشراء في تطبيق الديسكورد
 };
@@ -256,7 +256,7 @@ let PRODUCTS = [
       "توثيق فوري",
       "شارة توثيق رسمية",
     ],
-    price: "$1/Monthly", image: "images/products/vip/Verified Accounts.png",
+    price: "$1/Monthly", image: "images/products/vip/Verified Accounts.webp",
     featured: false, popular: false,
   },
   {
@@ -277,7 +277,7 @@ let PRODUCTS = [
       "موقع ورشة",
       "جاهزة داخل اللعبة",
     ],
-    price: "20$ Monthly", image: "images/products/mlo/Bennys LSIA.png",
+    price: "20$ Monthly", image: "images/products/mlo/Bennys LSIA.webp",
     featured: false, popular: false, type: "mechanic",
   },
   {
@@ -298,7 +298,7 @@ let PRODUCTS = [
       "موقع ورشة",
       "جاهزة داخل اللعبة",
     ],
-    price: "20$ Monthly", image: "images/products/mlo/Bennys Docks.png",
+    price: "20$ Monthly", image: "images/products/mlo/Bennys Docks.webp",
     featured: false, popular: false, type: "mechanic",
   },
   {
@@ -319,7 +319,7 @@ let PRODUCTS = [
       "موقع معرض سيارات",
       "جاهز داخل اللعبة",
     ],
-    price: "30$ Monthly", image: "images/products/mlo/Paleto Car Dealer.png",
+    price: "30$ Monthly", image: "images/products/mlo/Paleto Car Dealer.webp",
     featured: false, popular: false, type: "dealership",
   },
   {
@@ -340,7 +340,7 @@ let PRODUCTS = [
       "موقع مطعم",
       "جاهز داخل اللعبة",
     ],
-    price: "15$ Monthly", image: "images/products/mlo/Kebab King.png",
+    price: "15$ Monthly", image: "images/products/mlo/Kebab King.webp",
     featured: false, popular: false, type: "restaurant",
   },
   {
@@ -361,7 +361,7 @@ let PRODUCTS = [
       "موقع نادي ليلي",
       "جاهز داخل اللعبة",
     ],
-    price: "10$ Monthly", image: "images/products/mlo/Tropical Heights.png",
+    price: "10$ Monthly", image: "images/products/mlo/Tropical Heights.webp",
     featured: false, popular: false, type: "nightclub",
   },
   {
@@ -382,7 +382,7 @@ let PRODUCTS = [
       "موقع كافيه",
       "جاهز داخل اللعبة",
     ],
-    price: "15$ Monthly", image: "images/products/mlo/Leapfrog.png",
+    price: "15$ Monthly", image: "images/products/mlo/Leapfrog.webp",
     featured: false, popular: false, type: "cafe",
   },
   {
@@ -403,7 +403,7 @@ let PRODUCTS = [
       "موقع فندق",
       "جاهز داخل اللعبة",
     ],
-    price: "20$ Monthly", image: "images/products/mlo/Opium Nights.png",
+    price: "20$ Monthly", image: "images/products/mlo/Opium Nights.webp",
     featured: false, popular: false, type: "hotel",
   },
   {
@@ -424,7 +424,7 @@ let PRODUCTS = [
       "موقع ورشة",
       "جاهزة داخل اللعبة",
     ],
-    price: "20$ Monthly", image: "images/products/mlo/Red's.png",
+    price: "20$ Monthly", image: "images/products/mlo/Red's.webp",
     featured: false, popular: false, type: "mechanic",
   },
   {
@@ -445,7 +445,7 @@ let PRODUCTS = [
       "موقع معرض سيارات",
       "جاهز داخل اللعبة",
     ],
-    price: "30$ Monthly", image: "images/products/mlo/Vespucci PDM.png",
+    price: "30$ Monthly", image: "images/products/mlo/Vespucci PDM.webp",
     featured: false, popular: false, sold: true, type: "dealership",
   },
   {
@@ -508,7 +508,7 @@ let PRODUCTS = [
       "موقع ورشة",
       "جاهزة داخل اللعبة",
     ],
-    price: "20$ Monthly", image: "images/products/mlo/LaMesa Mechanic.jpg",
+    price: "20$ Monthly", image: "images/products/mlo/LaMesa Mechanic.webp",
     featured: false, popular: false, type: "mechanic",
   },
   {
@@ -550,7 +550,7 @@ let PRODUCTS = [
       "موقع مطعم",
       "جاهز داخل اللعبة",
     ],
-    price: "15$ Monthly", image: "images/products/mlo/Horny's.png",
+    price: "15$ Monthly", image: "images/products/mlo/Horny's.webp",
     featured: false, popular: false, type: "restaurant",
   },
   {
@@ -571,7 +571,7 @@ let PRODUCTS = [
       "موقع مطعم",
       "جاهز داخل اللعبة",
     ],
-    price: "15$ Monthly", image: "images/products/mlo/Up n Atom.png",
+    price: "15$ Monthly", image: "images/products/mlo/Up n Atom.webp",
     featured: false, popular: false, type: "restaurant",
   },
   {
@@ -592,7 +592,7 @@ let PRODUCTS = [
       "موقع نادي ليلي",
       "جاهز داخل اللعبة",
     ],
-    price: "10$ Monthly", image: "images/products/mlo/Vanilla Unicorn.jpg",
+    price: "10$ Monthly", image: "images/products/mlo/Vanilla Unicorn.webp",
     featured: false, popular: false, type: "nightclub",
   },
   {
@@ -634,7 +634,7 @@ let PRODUCTS = [
       "موقع مطعم",
       "جاهز داخل اللعبة",
     ],
-    price: "15$ Monthly", image: "images/products/mlo/Pizzeria.png",
+    price: "15$ Monthly", image: "images/products/mlo/Pizzeria.webp",
     featured: false, popular: false, type: "restaurant",
   },
   {
@@ -655,7 +655,7 @@ let PRODUCTS = [
       "موقع ورشة",
       "جاهز داخل اللعبة",
     ],
-    price: "20$ Monthly", image: "images/products/mlo/Ottos Auto.png",
+    price: "20$ Monthly", image: "images/products/mlo/Ottos Auto.webp",
     featured: false, popular: false, type: "mechanic",
   },
   {
@@ -676,7 +676,7 @@ let PRODUCTS = [
       "موقع ورشة",
       "جاهز داخل اللعبة",
     ],
-    price: "20$ Monthly", image: "images/products/mlo/Bennys.png",
+    price: "20$ Monthly", image: "images/products/mlo/Bennys.webp",
     featured: false, popular: false, type: "mechanic",
   },
   {
@@ -823,7 +823,7 @@ let PRODUCTS = [
       "ميزة VIP",
       "جاهز داخل اللعبة",
     ],
-    price: "10$ Monthly", image: "images/products/vip/car radio.png",
+    price: "10$ Monthly", image: "images/products/vip/car radio.webp",
     featured: false, popular: true,
   },
   {
@@ -886,7 +886,7 @@ let PRODUCTS = [
       "موقع معرض سيارات",
       "جاهز داخل اللعبة",
     ],
-    price: "20$ Monthly", image: "images/products/mlo/Ottos Auto.png",
+    price: "20$ Monthly", image: "images/products/mlo/Ottos Auto.webp",
     featured: false, popular: false, type: "dealership",
   },
   {
@@ -907,7 +907,7 @@ let PRODUCTS = [
       "الميكانيكا + معرض السيارات المستعملة",
       "جاهز داخل اللعبة",
     ],
-    price: "35$ Monthly", image: "images/products/mlo/Ottos Auto.png",
+    price: "35$ Monthly", image: "images/products/mlo/Ottos Auto.webp",
     featured: false, popular: false,
   },
   /* ── 🚗 عربيات تجريبية (بريفيو) — هتشيلها وتمسحها لما تديني الحقيقية ── */
@@ -981,7 +981,7 @@ let PRODUCTS = [
       "نص مخصص للوحة",
       "جاهز داخل اللعبة",
     ],
-    price: "5$ One Time", image: "images/products/vip/plat.png",
+    price: "5$ One Time", image: "images/products/vip/plat.webp",
     featured: false, popular: true,
   },
   {
@@ -1002,7 +1002,7 @@ let PRODUCTS = [
       "رقم مخصص",
       "جاهز داخل اللعبة",
     ],
-    price: "5$ One Time", image: "images/products/vip/custom phone numbers.png",
+    price: "5$ One Time", image: "images/products/vip/custom phone numbers.webp",
     featured: false, popular: true,
   },
 ];
