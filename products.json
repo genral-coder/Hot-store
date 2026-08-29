@@ -1,22 +1,22 @@
-﻿[
+[
     {
         "id":  1,
         "category":  "vip",
         "name":  "Verified Account",
-        "nameAr":  "طھظˆط«ظٹظ‚ ط§ظ„ط­ط³ط§ط¨",
+        "nameAr":  "توثيق الحساب",
         "short":  "Get your account verified for only $1/Monthly.",
-        "shortAr":  "ط§ط­طµظ„ ط¹ظ„ظ‰ طھظˆط«ظٹظ‚ ط­ط³ط§ط¨ظƒ ظ…ظ‚ط§ط¨ظ„ ط¯ظˆظ„ط§ط± ظˆط§ط­ط¯ ظپظ‚ط· ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "احصل على توثيق حسابك مقابل دولار واحد فقط شهرياً.",
         "description":  "Get your account verified for only 1$/Monthly for each application.",
-        "descriptionAr":  "ط§ط­طµظ„ ط¹ظ„ظ‰ طھظˆط«ظٹظ‚ ط­ط³ط§ط¨ظƒ ظ…ظ‚ط§ط¨ظ„ ط¯ظˆظ„ط§ط± ظˆط§ط­ط¯ ظپظ‚ط· ط´ظ‡ط±ظٹظ‹ط§ ظ„ظƒظ„ ط­ط³ط§ط¨.",
+        "descriptionAr":  "احصل على توثيق حسابك مقابل دولار واحد فقط شهريًا لكل حساب.",
         "features":  [
                          "$1/Monthly per account",
                          "Instant verification",
                          "Official verified badge"
                      ],
         "featuresAr":  [
-                           "ط¯ظˆظ„ط§ط± ظˆط§ط­ط¯ ط´ظ‡ط±ظٹط§ظ‹ ظ„ظƒظ„ ط­ط³ط§ط¨",
-                           "طھظˆط«ظٹظ‚ ظپظˆط±ظٹ",
-                           "ط´ط§ط±ط© طھظˆط«ظٹظ‚ ط±ط³ظ…ظٹط©"
+                           "دولار واحد شهرياً لكل حساب",
+                           "توثيق فوري",
+                           "شارة توثيق رسمية"
                        ],
         "price":  "$1/Monthly",
         "image":  "images/products/vip/Verified Accounts.webp",
@@ -30,20 +30,20 @@
         "id":  2,
         "category":  "mlo",
         "name":  "Bennys LSIA",
-        "nameAr":  "ط¨ظٹظ†ظٹط² LSIA",
+        "nameAr":  "بينيز LSIA",
         "short":  "A mechanic workshop, ready for business.",
-        "shortAr":  "ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§ ط¬ط§ظ‡ط²ط© ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Bennys LSIA â€” a mechanic workshop. Costs 20$ Monthly.",
-        "descriptionAr":  "ط¨ظٹظ†ظٹط² LSIA â€” ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "ورشة ميكانيكا جاهزة للشغل.",
+        "description":  "Bennys LSIA — a mechanic workshop. Costs 20$ Monthly.",
+        "descriptionAr":  "بينيز LSIA — ورشة ميكانيكا. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Workshop location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظˆط±ط´ط©",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع ورشة",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Bennys LSIA.webp",
@@ -57,20 +57,20 @@
         "id":  3,
         "category":  "mlo",
         "name":  "Bennys Docks",
-        "nameAr":  "ط¨ظٹظ†ظٹط² ط¯ظˆظƒط³",
+        "nameAr":  "بينيز دوكس",
         "short":  "A mechanic workshop, ready for business.",
-        "shortAr":  "ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§ ط¬ط§ظ‡ط²ط© ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Bennys Docks â€” a mechanic workshop. Costs 20$ Monthly.",
-        "descriptionAr":  "ط¨ظٹظ†ظٹط² ط¯ظˆظƒط³ â€” ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "ورشة ميكانيكا جاهزة للشغل.",
+        "description":  "Bennys Docks — a mechanic workshop. Costs 20$ Monthly.",
+        "descriptionAr":  "بينيز دوكس — ورشة ميكانيكا. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Workshop location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظˆط±ط´ط©",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع ورشة",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Bennys Docks.webp",
@@ -84,20 +84,20 @@
         "id":  4,
         "category":  "mlo",
         "name":  "Paleto Car Dealer",
-        "nameAr":  "ط¨ط§ظ„ظٹطھظˆ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ",
+        "nameAr":  "باليتو معرض سيارات",
         "short":  "A car dealership, ready for business.",
-        "shortAr":  "ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Paleto Car Dealer â€” a car dealership. Costs 30$ Monthly.",
-        "descriptionAr":  "ط¨ط§ظ„ظٹطھظˆ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ â€” ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ. ط§ظ„طھظƒظ„ظپط© 30$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "معرض سيارات جاهز للشغل.",
+        "description":  "Paleto Car Dealer — a car dealership. Costs 30$ Monthly.",
+        "descriptionAr":  "باليتو معرض سيارات — معرض سيارات. التكلفة 30$ شهرياً.",
         "features":  [
                          "30$ Monthly",
                          "Dealership location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "30$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "30$ شهرياً",
+                           "موقع معرض سيارات",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "30$ Monthly",
         "image":  "images/products/mlo/Paleto Car Dealer.webp",
@@ -111,20 +111,20 @@
         "id":  5,
         "category":  "mlo",
         "name":  "Kebab King",
-        "nameAr":  "ظƒط¨ط§ط¨ ظƒظٹظ†ط¬",
+        "nameAr":  "كباب كينج",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Kebab King â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ظƒط¨ط§ط¨ ظƒظٹظ†ط¬ â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Kebab King — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "كباب كينج — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Kebab King.webp",
@@ -138,20 +138,20 @@
         "id":  6,
         "category":  "mlo",
         "name":  "Tropical Heights",
-        "nameAr":  "طھط±ظˆط¨ظٹظƒط§ظ„ ظ‡ط§ظٹطھط³",
+        "nameAr":  "تروبيكال هايتس",
         "short":  "A nightclub, ready for business.",
-        "shortAr":  "ظ†ط§ط¯ظٹ ظ„ظٹظ„ظٹ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Tropical Heights â€” a nightclub. Costs 10$ Monthly.",
-        "descriptionAr":  "طھط±ظˆط¨ظٹظƒط§ظ„ ظ‡ط§ظٹطھط³ â€” ظ†ط§ط¯ظٹ ظ„ظٹظ„ظٹ. ط§ظ„طھظƒظ„ظپط© 10$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "نادي ليلي جاهز للشغل.",
+        "description":  "Tropical Heights — a nightclub. Costs 10$ Monthly.",
+        "descriptionAr":  "تروبيكال هايتس — نادي ليلي. التكلفة 10$ شهرياً.",
         "features":  [
                          "10$ Monthly",
                          "Nightclub location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "10$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ†ط§ط¯ظٹ ظ„ظٹظ„ظٹ",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "10$ شهرياً",
+                           "موقع نادي ليلي",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "10$ Monthly",
         "image":  "images/products/mlo/Tropical Heights.webp",
@@ -165,20 +165,20 @@
         "id":  7,
         "category":  "mlo",
         "name":  "Leapfrog",
-        "nameAr":  "ظ„ظٹظپط±ظˆط¬",
+        "nameAr":  "ليفروج",
         "short":  "A cafe, ready for business.",
-        "shortAr":  "ظƒط§ظپظٹظ‡ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Leapfrog â€” a cafe. Costs 15$ Monthly.",
-        "descriptionAr":  "ظ„ظٹظپط±ظˆط¬ â€” ظƒط§ظپظٹظ‡. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "كافيه جاهز للشغل.",
+        "description":  "Leapfrog — a cafe. Costs 15$ Monthly.",
+        "descriptionAr":  "ليفروج — كافيه. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Cafe location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظƒط§ظپظٹظ‡",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع كافيه",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Leapfrog.webp",
@@ -192,20 +192,20 @@
         "id":  8,
         "category":  "mlo",
         "name":  "Opium Nights",
-        "nameAr":  "ط£ظˆط¨ظٹظˆظ… ظ†ط§ظٹطھط³",
+        "nameAr":  "أوبيوم نايتس",
         "short":  "A hotel, ready for business.",
-        "shortAr":  "ظپظ†ط¯ظ‚ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Opium Nights â€” a hotel. Costs 20$ Monthly.",
-        "descriptionAr":  "ط£ظˆط¨ظٹظˆظ… ظ†ط§ظٹطھط³ â€” ظپظ†ط¯ظ‚. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "فندق جاهز للشغل.",
+        "description":  "Opium Nights — a hotel. Costs 20$ Monthly.",
+        "descriptionAr":  "أوبيوم نايتس — فندق. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Hotel location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظپظ†ط¯ظ‚",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع فندق",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Opium Nights.webp",
@@ -219,20 +219,20 @@
         "id":  9,
         "category":  "mlo",
         "name":  "Red\u0027s",
-        "nameAr":  "ط±ظٹط¯ط²",
+        "nameAr":  "ريدز",
         "short":  "A mechanic workshop, ready for business.",
-        "shortAr":  "ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§ ط¬ط§ظ‡ط²ط© ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Red\u0027s â€” a mechanic workshop. Costs 20$ Monthly.",
-        "descriptionAr":  "ط±ظٹط¯ط² â€” ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "ورشة ميكانيكا جاهزة للشغل.",
+        "description":  "Red\u0027s — a mechanic workshop. Costs 20$ Monthly.",
+        "descriptionAr":  "ريدز — ورشة ميكانيكا. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Workshop location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظˆط±ط´ط©",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع ورشة",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Red\u0027s.webp",
@@ -246,20 +246,20 @@
         "id":  10,
         "category":  "mlo",
         "name":  "Vespucci PDM",
-        "nameAr":  "ظپظٹط³ظˆطھط´ظٹ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ",
+        "nameAr":  "فيسوتشي معرض سيارات",
         "short":  "A car dealership, ready for business.",
-        "shortAr":  "ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Vespucci PDM â€” a car dealership. Costs 30$ Monthly.",
-        "descriptionAr":  "ظپظٹط³ظˆطھط´ظٹ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ â€” ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ. ط§ظ„طھظƒظ„ظپط© 30$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "معرض سيارات جاهز للشغل.",
+        "description":  "Vespucci PDM — a car dealership. Costs 30$ Monthly.",
+        "descriptionAr":  "فيسوتشي معرض سيارات — معرض سيارات. التكلفة 30$ شهرياً.",
         "features":  [
                          "30$ Monthly",
                          "Dealership location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "30$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "30$ شهرياً",
+                           "موقع معرض سيارات",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "30$ Monthly",
         "image":  "images/products/mlo/Vespucci PDM.webp",
@@ -273,20 +273,20 @@
         "id":  11,
         "category":  "mlo",
         "name":  "Pier 76",
-        "nameAr":  "ط¨ظٹط± 76",
+        "nameAr":  "بير 76",
         "short":  "A car dealership, ready for business.",
-        "shortAr":  "ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Pier 76 â€” a car dealership. Costs 30$ Monthly.",
-        "descriptionAr":  "ط¨ظٹط± 76 â€” ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ. ط§ظ„طھظƒظ„ظپط© 30$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "معرض سيارات جاهز للشغل.",
+        "description":  "Pier 76 — a car dealership. Costs 30$ Monthly.",
+        "descriptionAr":  "بير 76 — معرض سيارات. التكلفة 30$ شهرياً.",
         "features":  [
                          "30$ Monthly",
                          "Dealership location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "30$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "30$ شهرياً",
+                           "موقع معرض سيارات",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "30$ Monthly",
         "image":  "images/products/mlo/Pier 76.webp",
@@ -300,20 +300,20 @@
         "id":  12,
         "category":  "mlo",
         "name":  "Pearls",
-        "nameAr":  "ط¨ظٹط±ظ„ط²",
+        "nameAr":  "بيرلز",
         "short":  "A hotel business, ready for business.",
-        "shortAr":  "ظپظ†ط¯ظ‚ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Pearls â€” a hotel business. Costs 20$ Monthly.",
-        "descriptionAr":  "ط¨ظٹط±ظ„ط² â€” ظپظ†ط¯ظ‚. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "فندق جاهز للشغل.",
+        "description":  "Pearls — a hotel business. Costs 20$ Monthly.",
+        "descriptionAr":  "بيرلز — فندق. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Hotel location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظپظ†ط¯ظ‚",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع فندق",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Pearls.webp",
@@ -327,20 +327,20 @@
         "id":  13,
         "category":  "mlo",
         "name":  "LaMesa Mechanic",
-        "nameAr":  "ظ„ط§ظ…ظٹط³ط§ ظ…ظٹظƒط§ظ†ظٹظƒط§",
+        "nameAr":  "لاميسا ميكانيكا",
         "short":  "A mechanic workshop, ready for business.",
-        "shortAr":  "ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§ ط¬ط§ظ‡ط²ط© ظ„ظ„ط´ط؛ظ„.",
-        "description":  "LaMesa Mechanic â€” a mechanic workshop. Costs 20$ Monthly.",
-        "descriptionAr":  "ظ„ط§ظ…ظٹط³ط§ ظ…ظٹظƒط§ظ†ظٹظƒط§ â€” ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "ورشة ميكانيكا جاهزة للشغل.",
+        "description":  "LaMesa Mechanic — a mechanic workshop. Costs 20$ Monthly.",
+        "descriptionAr":  "لاميسا ميكانيكا — ورشة ميكانيكا. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Workshop location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظˆط±ط´ط©",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع ورشة",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/LaMesa Mechanic.webp",
@@ -354,20 +354,20 @@
         "id":  14,
         "category":  "mlo",
         "name":  "Koi",
-        "nameAr":  "ظƒظˆظٹ",
+        "nameAr":  "كوي",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Koi â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ظƒظˆظٹ â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Koi — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "كوي — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Koi.webp",
@@ -381,20 +381,20 @@
         "id":  15,
         "category":  "mlo",
         "name":  "Horny\u0027s",
-        "nameAr":  "ظ‡ظˆط±ظ†ظٹط²",
+        "nameAr":  "هورنيز",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Horny\u0027s â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ظ‡ظˆط±ظ†ظٹط² â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Horny\u0027s — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "هورنيز — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Horny\u0027s.webp",
@@ -408,20 +408,20 @@
         "id":  16,
         "category":  "mlo",
         "name":  "Up n Atom",
-        "nameAr":  "ط£ط¨ ط£ظ†ط¯ ط£طھظˆظ…",
+        "nameAr":  "أب أند أتوم",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Up n Atom â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ط£ط¨ ط£ظ†ط¯ ط£طھظˆظ… â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Up n Atom — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "أب أند أتوم — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Up n Atom.webp",
@@ -435,20 +435,20 @@
         "id":  17,
         "category":  "mlo",
         "name":  "Vanilla Unicorn",
-        "nameAr":  "ظپط§ظ†ظٹظ„ط§ ظٹظˆظ†ظٹظƒظˆط±ظ†",
+        "nameAr":  "فانيلا يونيكورن",
         "short":  "A nightclub, ready for business.",
-        "shortAr":  "ظ†ط§ط¯ظٹ ظ„ظٹظ„ظٹ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Vanilla Unicorn â€” a nightclub. Costs 10$ Monthly.",
-        "descriptionAr":  "ظپط§ظ†ظٹظ„ط§ ظٹظˆظ†ظٹظƒظˆط±ظ† â€” ظ†ط§ط¯ظٹ ظ„ظٹظ„ظٹ. ط§ظ„طھظƒظ„ظپط© 10$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "نادي ليلي جاهز للشغل.",
+        "description":  "Vanilla Unicorn — a nightclub. Costs 10$ Monthly.",
+        "descriptionAr":  "فانيلا يونيكورن — نادي ليلي. التكلفة 10$ شهرياً.",
         "features":  [
                          "10$ Monthly",
                          "Nightclub location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "10$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ†ط§ط¯ظٹ ظ„ظٹظ„ظٹ",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "10$ شهرياً",
+                           "موقع نادي ليلي",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "10$ Monthly",
         "image":  "images/products/mlo/Vanilla Unicorn.webp",
@@ -462,20 +462,20 @@
         "id":  18,
         "category":  "mlo",
         "name":  "Exotic Dealership",
-        "nameAr":  "ط¥ظƒط²ظˆطھظٹظƒ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ",
+        "nameAr":  "إكزوتيك معرض سيارات",
         "short":  "A car dealership, ready for business.",
-        "shortAr":  "ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Exotic Dealership â€” a car dealership. Costs 20$ Monthly.",
-        "descriptionAr":  "ط¥ظƒط²ظˆطھظٹظƒ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ â€” ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "معرض سيارات جاهز للشغل.",
+        "description":  "Exotic Dealership — a car dealership. Costs 20$ Monthly.",
+        "descriptionAr":  "إكزوتيك معرض سيارات — معرض سيارات. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Dealership location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع معرض سيارات",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Exotic Dealership.webp",
@@ -489,20 +489,20 @@
         "id":  19,
         "category":  "mlo",
         "name":  "Pizzeria",
-        "nameAr":  "ط¨ظٹطھط²ظٹط±ظٹط§",
+        "nameAr":  "بيتزيريا",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Pizzeria â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ط¨ظٹطھط²ظٹط±ظٹط§ â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Pizzeria — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "بيتزيريا — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Pizzeria.webp",
@@ -516,20 +516,20 @@
         "id":  20,
         "category":  "mlo",
         "name":  "Ottos Auto",
-        "nameAr":  "ط£ظˆطھظˆط² ط£ظˆطھظˆ",
+        "nameAr":  "أوتوز أوتو",
         "short":  "A mechanic workshop, ready for business.",
-        "shortAr":  "ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§ ط¬ط§ظ‡ط²ط© ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Ottos Auto â€” a mechanic workshop. Costs 20$ Monthly.",
-        "descriptionAr":  "ط£ظˆطھظˆط² ط£ظˆطھظˆ â€” ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "ورشة ميكانيكا جاهزة للشغل.",
+        "description":  "Ottos Auto — a mechanic workshop. Costs 20$ Monthly.",
+        "descriptionAr":  "أوتوز أوتو — ورشة ميكانيكا. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Workshop location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظˆط±ط´ط©",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع ورشة",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Ottos Auto.webp",
@@ -543,20 +543,20 @@
         "id":  21,
         "category":  "mlo",
         "name":  "Bennys",
-        "nameAr":  "ط¨ظٹظ†ظٹط²",
+        "nameAr":  "بينيز",
         "short":  "A mechanic workshop, ready for business.",
-        "shortAr":  "ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§ ط¬ط§ظ‡ط²ط© ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Bennys â€” a mechanic workshop. Costs 20$ Monthly.",
-        "descriptionAr":  "ط¨ظٹظ†ظٹط² â€” ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "ورشة ميكانيكا جاهزة للشغل.",
+        "description":  "Bennys — a mechanic workshop. Costs 20$ Monthly.",
+        "descriptionAr":  "بينيز — ورشة ميكانيكا. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Workshop location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظˆط±ط´ط©",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع ورشة",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Bennys.webp",
@@ -570,20 +570,20 @@
         "id":  22,
         "category":  "mlo",
         "name":  "Hayes",
-        "nameAr":  "ظ‡ط§ظٹط²",
+        "nameAr":  "هايز",
         "short":  "A mechanic workshop, ready for business.",
-        "shortAr":  "ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§ ط¬ط§ظ‡ط²ط© ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Hayes â€” a mechanic workshop. Costs 20$ Monthly.",
-        "descriptionAr":  "ظ‡ط§ظٹط² â€” ظˆط±ط´ط© ظ…ظٹظƒط§ظ†ظٹظƒط§. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "ورشة ميكانيكا جاهزة للشغل.",
+        "description":  "Hayes — a mechanic workshop. Costs 20$ Monthly.",
+        "descriptionAr":  "هايز — ورشة ميكانيكا. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Workshop location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظˆط±ط´ط©",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع ورشة",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Hayes.webp",
@@ -597,20 +597,20 @@
         "id":  23,
         "category":  "mlo",
         "name":  "Pops Dinner",
-        "nameAr":  "ط¨ظˆط¨ط² ط¯ظٹظ†ط±",
+        "nameAr":  "بوبز دينر",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Pops Dinner â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ط¨ظˆط¨ط² ط¯ظٹظ†ط± â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Pops Dinner — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "بوبز دينر — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Pops Dinner.webp",
@@ -624,20 +624,20 @@
         "id":  24,
         "category":  "mlo",
         "name":  "Bean Machine",
-        "nameAr":  "ط¨ظٹظ† ظ…ط§ط´ظٹظ†",
+        "nameAr":  "بين ماشين",
         "short":  "A cafe, ready for business.",
-        "shortAr":  "ظƒط§ظپظٹظ‡ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Bean Machine â€” a cafe. Costs 15$ Monthly.",
-        "descriptionAr":  "ط¨ظٹظ† ظ…ط§ط´ظٹظ† â€” ظƒط§ظپظٹظ‡. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "كافيه جاهز للشغل.",
+        "description":  "Bean Machine — a cafe. Costs 15$ Monthly.",
+        "descriptionAr":  "بين ماشين — كافيه. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Cafe location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظƒط§ظپظٹظ‡",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع كافيه",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Bean Machine.webp",
@@ -651,20 +651,20 @@
         "id":  25,
         "category":  "mlo",
         "name":  "Bahamas",
-        "nameAr":  "ط¨ظ‡ط§ظ…ط³",
+        "nameAr":  "بهامس",
         "short":  "A nightclub, ready for business.",
-        "shortAr":  "ظ†ط§ط¯ظٹ ظ„ظٹظ„ظٹ ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Bahamas â€” a nightclub. Costs 10$ Monthly.",
-        "descriptionAr":  "ط¨ظ‡ط§ظ…ط³ â€” ظ†ط§ط¯ظٹ ظ„ظٹظ„ظٹ. ط§ظ„طھظƒظ„ظپط© 10$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "نادي ليلي جاهز للشغل.",
+        "description":  "Bahamas — a nightclub. Costs 10$ Monthly.",
+        "descriptionAr":  "بهامس — نادي ليلي. التكلفة 10$ شهرياً.",
         "features":  [
                          "10$ Monthly",
                          "Nightclub location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "10$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ†ط§ط¯ظٹ ظ„ظٹظ„ظٹ",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "10$ شهرياً",
+                           "موقع نادي ليلي",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "10$ Monthly",
         "image":  "images/products/mlo/Bahamas.webp",
@@ -678,20 +678,20 @@
         "id":  26,
         "category":  "mlo",
         "name":  "Cat Cafe",
-        "nameAr":  "ظƒط§طھ ظƒط§ظپظٹظ‡",
+        "nameAr":  "كات كافيه",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Cat Cafe â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ظƒط§طھ ظƒط§ظپظٹظ‡ â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Cat Cafe — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "كات كافيه — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Cat Cafe.webp",
@@ -705,20 +705,20 @@
         "id":  27,
         "category":  "mlo",
         "name":  "Burgershot",
-        "nameAr":  "ط¨ط±ط؛ط±ط´ظˆطھ",
+        "nameAr":  "برغرشوت",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Burgershot â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ط¨ط±ط؛ط±ط´ظˆطھ â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Burgershot — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "برغرشوت — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Burgershot.webp",
@@ -732,20 +732,20 @@
         "id":  28,
         "category":  "vip",
         "name":  "Car Radio",
-        "nameAr":  "ط±ط§ط¯ظٹظˆ ط§ظ„ط³ظٹط§ط±ط©",
+        "nameAr":  "راديو السيارة",
         "short":  "A VIP car radio, ready for use.",
-        "shortAr":  "ط±ط§ط¯ظٹظˆ ط³ظٹط§ط±ط© VIP ط¬ط§ظ‡ط² ظ„ظ„ط§ط³طھط®ط¯ط§ظ….",
-        "description":  "Car Radio â€” a VIP feature. Costs 10$ Monthly.",
-        "descriptionAr":  "ط±ط§ط¯ظٹظˆ ط§ظ„ط³ظٹط§ط±ط© â€” ظ…ظٹط²ط© VIP. ط§ظ„طھظƒظ„ظپط© 10$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "راديو سيارة VIP جاهز للاستخدام.",
+        "description":  "Car Radio — a VIP feature. Costs 10$ Monthly.",
+        "descriptionAr":  "راديو السيارة — ميزة VIP. التكلفة 10$ شهرياً.",
         "features":  [
                          "10$ Monthly",
                          "VIP feature",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "10$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظٹط²ط© VIP",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "10$ شهرياً",
+                           "ميزة VIP",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "10$ Monthly",
         "image":  "images/products/vip/car radio.webp",
@@ -759,20 +759,20 @@
         "id":  29,
         "category":  "mlo",
         "name":  "Pearls Restaurant",
-        "nameAr":  "ظ…ط·ط¹ظ… ط¨ظٹط±ظ„ط²",
+        "nameAr":  "مطعم بيرلز",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Pearls Restaurant â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ظ…ط·ط¹ظ… ط¨ظٹط±ظ„ط² â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Pearls Restaurant — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "مطعم بيرلز — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/Pearls.webp",
@@ -786,20 +786,20 @@
         "id":  30,
         "category":  "bundles",
         "name":  "Pearls Combo",
-        "nameAr":  "ظƒظˆظ…ط¨ظˆ ط¨ظٹط±ظ„ط²",
+        "nameAr":  "كومبو بيرلز",
         "short":  "Hotel business \u0026 restaurant combo, costs 30$ instead of 35$.",
-        "shortAr":  "ظƒظˆظ…ط¨ظˆ ط§ظ„ظپظ†ط¯ظ‚ ظˆط§ظ„ظ…ط·ط¹ظ…طŒ ط¨ظ€30$ ط¨ط¯ظ„ 35$.",
-        "description":  "Pearls Combo â€” Hotel Business \u0026 Restaurant. Costs 30$ instead of 35$.",
-        "descriptionAr":  "ظƒظˆظ…ط¨ظˆ ط¨ظٹط±ظ„ط² â€” ط§ظ„ظپظ†ط¯ظ‚ ظˆط§ظ„ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 30$ ط¨ط¯ظ„ 35$.",
+        "shortAr":  "كومبو الفندق والمطعم، بـ30$ بدل 35$.",
+        "description":  "Pearls Combo — Hotel Business \u0026 Restaurant. Costs 30$ instead of 35$.",
+        "descriptionAr":  "كومبو بيرلز — الفندق والمطعم. التكلفة 30$ بدل 35$.",
         "features":  [
                          "30$ Monthly (instead of 35$)",
                          "Hotel Business + Restaurant",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "30$ ط´ظ‡ط±ظٹط§ظ‹ (ط¨ط¯ظ„ 35$)",
-                           "ط§ظ„ظپظ†ط¯ظ‚ + ط§ظ„ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "30$ شهرياً (بدل 35$)",
+                           "الفندق + المطعم",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "30$ Monthly",
         "image":  "images/products/mlo/Pearls.webp",
@@ -813,20 +813,20 @@
         "id":  31,
         "category":  "mlo",
         "name":  "Ottos Auto Used Car Dealer",
-        "nameAr":  "ط£ظˆطھظˆط² ط£ظˆطھظˆ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ ظ…ط³طھط¹ظ…ظ„ط©",
+        "nameAr":  "أوتوز أوتو معرض سيارات مستعملة",
         "short":  "A used car dealer, ready for business.",
-        "shortAr":  "ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ ظ…ط³طھط¹ظ…ظ„ط© ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Ottos Auto Used Car Dealer â€” a used car dealer. Costs 20$ Monthly.",
-        "descriptionAr":  "ط£ظˆطھظˆط² ط£ظˆطھظˆ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ ظ…ط³طھط¹ظ…ظ„ط© â€” ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ ظ…ط³طھط¹ظ…ظ„ط©. ط§ظ„طھظƒظ„ظپط© 20$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "معرض سيارات مستعملة جاهز للشغل.",
+        "description":  "Ottos Auto Used Car Dealer — a used car dealer. Costs 20$ Monthly.",
+        "descriptionAr":  "أوتوز أوتو معرض سيارات مستعملة — معرض سيارات مستعملة. التكلفة 20$ شهرياً.",
         "features":  [
                          "20$ Monthly",
                          "Dealership location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط¹ط±ط¶ ط³ظٹط§ط±ط§طھ",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "موقع معرض سيارات",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "images/products/mlo/Ottos Auto.webp",
@@ -840,20 +840,20 @@
         "id":  32,
         "category":  "bundles",
         "name":  "Ottos Auto Combo",
-        "nameAr":  "ظƒظˆظ…ط¨ظˆ ط£ظˆطھظˆط² ط£ظˆطھظˆ",
+        "nameAr":  "كومبو أوتوز أوتو",
         "short":  "Mechanic \u0026 used car dealer combo, costs 35$ instead of 40$.",
-        "shortAr":  "ظƒظˆظ…ط¨ظˆ ط§ظ„ظ…ظٹظƒط§ظ†ظٹظƒط§ ظˆظ…ط¹ط±ط¶ ط§ظ„ط³ظٹط§ط±ط§طھطŒ ط¨ظ€35$ ط¨ط¯ظ„ 40$.",
-        "description":  "Ottos Auto Combo â€” Mechanic \u0026 Used Car Dealer. Costs 35$ instead of 40$.",
-        "descriptionAr":  "ظƒظˆظ…ط¨ظˆ ط£ظˆطھظˆط² ط£ظˆطھظˆ â€” ط§ظ„ظ…ظٹظƒط§ظ†ظٹظƒط§ ظˆظ…ط¹ط±ط¶ ط§ظ„ط³ظٹط§ط±ط§طھ ط§ظ„ظ…ط³طھط¹ظ…ظ„ط©. ط§ظ„طھظƒظ„ظپط© 35$ ط¨ط¯ظ„ 40$.",
+        "shortAr":  "كومبو الميكانيكا ومعرض السيارات، بـ35$ بدل 40$.",
+        "description":  "Ottos Auto Combo — Mechanic \u0026 Used Car Dealer. Costs 35$ instead of 40$.",
+        "descriptionAr":  "كومبو أوتوز أوتو — الميكانيكا ومعرض السيارات المستعملة. التكلفة 35$ بدل 40$.",
         "features":  [
                          "35$ Monthly (instead of 40$)",
                          "Mechanic + Used Car Dealer",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "35$ ط´ظ‡ط±ظٹط§ظ‹ (ط¨ط¯ظ„ 40$)",
-                           "ط§ظ„ظ…ظٹظƒط§ظ†ظٹظƒط§ + ظ…ط¹ط±ط¶ ط§ظ„ط³ظٹط§ط±ط§طھ ط§ظ„ظ…ط³طھط¹ظ…ظ„ط©",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "35$ شهرياً (بدل 40$)",
+                           "الميكانيكا + معرض السيارات المستعملة",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "35$ Monthly",
         "image":  "images/products/mlo/Ottos Auto.webp",
@@ -867,20 +867,20 @@
         "id":  33,
         "category":  "vehicles",
         "name":  "Preview Class S",
-        "nameAr":  "ط¹ط±ط¶ ظƒظ„ط§ط³ S",
+        "nameAr":  "عرض كلاس S",
         "short":  "Vehicle preview for Class S.",
-        "shortAr":  "ط¹ط±ط¨ظٹط© ط¨ط±ظٹظپظٹظˆ ظ„ظƒظ„ط§ط³ S.",
-        "description":  "Preview vehicle â€” Class S. Replace with the real one.",
-        "descriptionAr":  "ط¹ط±ط¨ظٹط© ط¨ط±ظٹظپظٹظˆ â€” ظƒظ„ط§ط³ S. ظ‡طھطھط³طھط¨ط¯ظ„ ط¨ط§ظ„ط­ظ‚ظٹظ‚ظٹط©.",
+        "shortAr":  "عربية بريفيو لكلاس S.",
+        "description":  "Preview vehicle — Class S. Replace with the real one.",
+        "descriptionAr":  "عربية بريفيو — كلاس S. هتتستبدل بالحقيقية.",
         "features":  [
                          "20$ Monthly",
                          "100$ Per Season",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "20$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "100$ ظ„ظ„ظ…ظˆط³ظ…",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "20$ شهرياً",
+                           "100$ للموسم",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "20$ Monthly",
         "image":  "",
@@ -894,20 +894,20 @@
         "id":  34,
         "category":  "vehicles",
         "name":  "Preview Class S+",
-        "nameAr":  "ط¹ط±ط¶ ظƒظ„ط§ط³ S+",
+        "nameAr":  "عرض كلاس S+",
         "short":  "Vehicle preview for Class S+.",
-        "shortAr":  "ط¹ط±ط¨ظٹط© ط¨ط±ظٹظپظٹظˆ ظ„ظƒظ„ط§ط³ S+.",
-        "description":  "Preview vehicle â€” Class S+. Replace with the real one.",
-        "descriptionAr":  "ط¹ط±ط¨ظٹط© ط¨ط±ظٹظپظٹظˆ â€” ظƒظ„ط§ط³ S+. ظ‡طھطھط³طھط¨ط¯ظ„ ط¨ط§ظ„ط­ظ‚ظٹظ‚ظٹط©.",
+        "shortAr":  "عربية بريفيو لكلاس S+.",
+        "description":  "Preview vehicle — Class S+. Replace with the real one.",
+        "descriptionAr":  "عربية بريفيو — كلاس S+. هتتستبدل بالحقيقية.",
         "features":  [
                          "25$ Monthly",
                          "150$ Per Season",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "25$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "150$ ظ„ظ„ظ…ظˆط³ظ…",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "25$ شهرياً",
+                           "150$ للموسم",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "25$ Monthly",
         "image":  "",
@@ -921,20 +921,20 @@
         "id":  35,
         "category":  "vehicles",
         "name":  "Preview Class S++",
-        "nameAr":  "ط¹ط±ط¶ ظƒظ„ط§ط³ S++",
+        "nameAr":  "عرض كلاس S++",
         "short":  "Vehicle preview for Class S++.",
-        "shortAr":  "ط¹ط±ط¨ظٹط© ط¨ط±ظٹظپظٹظˆ ظ„ظƒظ„ط§ط³ S++.",
-        "description":  "Preview vehicle â€” Class S++. Replace with the real one.",
-        "descriptionAr":  "ط¹ط±ط¨ظٹط© ط¨ط±ظٹظپظٹظˆ â€” ظƒظ„ط§ط³ S++. ظ‡طھطھط³طھط¨ط¯ظ„ ط¨ط§ظ„ط­ظ‚ظٹظ‚ظٹط©.",
+        "shortAr":  "عربية بريفيو لكلاس S++.",
+        "description":  "Preview vehicle — Class S++. Replace with the real one.",
+        "descriptionAr":  "عربية بريفيو — كلاس S++. هتتستبدل بالحقيقية.",
         "features":  [
                          "30$ Monthly",
                          "200$ Per Season",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "30$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "200$ ظ„ظ„ظ…ظˆط³ظ…",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "30$ شهرياً",
+                           "200$ للموسم",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "30$ Monthly",
         "image":  "",
@@ -948,20 +948,20 @@
         "id":  36,
         "category":  "vehicles",
         "name":  "Preview Class X",
-        "nameAr":  "ط¹ط±ط¶ ظƒظ„ط§ط³ X",
+        "nameAr":  "عرض كلاس X",
         "short":  "Vehicle preview for Class X.",
-        "shortAr":  "ط¹ط±ط¨ظٹط© ط¨ط±ظٹظپظٹظˆ ظ„ظƒظ„ط§ط³ X.",
-        "description":  "Preview vehicle â€” Class X. Replace with the real one.",
-        "descriptionAr":  "ط¹ط±ط¨ظٹط© ط¨ط±ظٹظپظٹظˆ â€” ظƒظ„ط§ط³ X. ظ‡طھطھط³طھط¨ط¯ظ„ ط¨ط§ظ„ط­ظ‚ظٹظ‚ظٹط©.",
+        "shortAr":  "عربية بريفيو لكلاس X.",
+        "description":  "Preview vehicle — Class X. Replace with the real one.",
+        "descriptionAr":  "عربية بريفيو — كلاس X. هتتستبدل بالحقيقية.",
         "features":  [
                          "40$ Monthly",
                          "250$ Per Season",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "40$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "250$ ظ„ظ„ظ…ظˆط³ظ…",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "40$ شهرياً",
+                           "250$ للموسم",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "40$ Monthly",
         "image":  "",
@@ -975,20 +975,20 @@
         "id":  37,
         "category":  "vip",
         "name":  "Custom Car Plate",
-        "nameAr":  "ظ„ظˆط­ط© ط³ظٹط§ط±ط© ظ…ط®طµطµط©",
+        "nameAr":  "لوحة سيارة مخصصة",
         "short":  "A custom car plate, one-time purchase.",
-        "shortAr":  "ظ„ظˆط­ط© ط³ظٹط§ط±ط© ظ…ط®طµطµط©طŒ ط´ط±ط§ط، ظ„ظ…ط±ط© ظˆط§ط­ط¯ط©.",
-        "description":  "Custom Car Plate â€” get your own custom plate. Costs 5$ One Time.",
-        "descriptionAr":  "ظ„ظˆط­ط© ط³ظٹط§ط±ط© ظ…ط®طµطµط© â€” ط§ط­طµظ„ ط¹ظ„ظ‰ ظ„ظˆط­طھظƒ ط§ظ„ط®ط§طµط©. ط§ظ„طھظƒظ„ظپط© 5$ ظ„ظ…ط±ط© ظˆط§ط­ط¯ط©.",
+        "shortAr":  "لوحة سيارة مخصصة، شراء لمرة واحدة.",
+        "description":  "Custom Car Plate — get your own custom plate. Costs 5$ One Time.",
+        "descriptionAr":  "لوحة سيارة مخصصة — احصل على لوحتك الخاصة. التكلفة 5$ لمرة واحدة.",
         "features":  [
                          "5$ One Time",
                          "Custom plate text",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "5$ ظ„ظ…ط±ط© ظˆط§ط­ط¯ط©",
-                           "ظ†طµ ظ…ط®طµطµ ظ„ظ„ظˆط­ط©",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "5$ لمرة واحدة",
+                           "نص مخصص للوحة",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "5$ One Time",
         "image":  "images/products/vip/plat.webp",
@@ -1002,20 +1002,20 @@
         "id":  38,
         "category":  "vip",
         "name":  "Custom Phone Number",
-        "nameAr":  "ط±ظ‚ظ… طھظ„ظٹظپظˆظ† ظ…ط®طµطµ",
+        "nameAr":  "رقم تليفون مخصص",
         "short":  "A custom phone number, one-time purchase.",
-        "shortAr":  "ط±ظ‚ظ… طھظ„ظٹظپظˆظ† ظ…ط®طµطµطŒ ط´ط±ط§ط، ظ„ظ…ط±ط© ظˆط§ط­ط¯ط©.",
-        "description":  "Custom Phone Number â€” get your own custom number. Costs 5$ One Time.",
-        "descriptionAr":  "ط±ظ‚ظ… طھظ„ظٹظپظˆظ† ظ…ط®طµطµ â€” ط§ط­طµظ„ ط¹ظ„ظ‰ ط±ظ‚ظ…ظƒ ط§ظ„ط®ط§طµ. ط§ظ„طھظƒظ„ظپط© 5$ ظ„ظ…ط±ط© ظˆط§ط­ط¯ط©.",
+        "shortAr":  "رقم تليفون مخصص، شراء لمرة واحدة.",
+        "description":  "Custom Phone Number — get your own custom number. Costs 5$ One Time.",
+        "descriptionAr":  "رقم تليفون مخصص — احصل على رقمك الخاص. التكلفة 5$ لمرة واحدة.",
         "features":  [
                          "5$ One Time",
                          "Custom number",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "5$ ظ„ظ…ط±ط© ظˆط§ط­ط¯ط©",
-                           "ط±ظ‚ظ… ظ…ط®طµطµ",
-                           "ط¬ط§ظ‡ط² ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "5$ لمرة واحدة",
+                           "رقم مخصص",
+                           "جاهز داخل اللعبة"
                        ],
         "price":  "5$ One Time",
         "image":  "images/products/vip/custom phone numbers.webp",
@@ -1029,20 +1029,20 @@
         "id":  39,
         "category":  "mlo",
         "name":  "Al Dente\u0027s",
-        "nameAr":  "ط£ظ„ ط¯ظٹظ†طھظٹط²",
+        "nameAr":  "أل دينتيز",
         "short":  "A restaurant, ready for business.",
-        "shortAr":  "ظ…ط·ط¹ظ… ط¬ط§ظ‡ط² ظ„ظ„ط´ط؛ظ„.",
-        "description":  "Al Dente\u0027s restaurant â€” a restaurant. Costs 15$ Monthly.",
-        "descriptionAr":  "ط£ظ„ ط¯ظٹظ†طھظٹط² â€” ظ…ط·ط¹ظ…. ط§ظ„طھظƒظ„ظپط© 15$ ط´ظ‡ط±ظٹط§ظ‹.",
+        "shortAr":  "مطعم جاهز للشغل.",
+        "description":  "Al Dente\u0027s restaurant — a restaurant. Costs 15$ Monthly.",
+        "descriptionAr":  "أل دينتيز — مطعم. التكلفة 15$ شهرياً.",
         "features":  [
                          "15$ Monthly",
                          "Restaurant location",
                          "In-game ready"
                      ],
         "featuresAr":  [
-                           "15$ ط´ظ‡ط±ظٹط§ظ‹",
-                           "ظ…ظˆظ‚ط¹ ظ…ط·ط¹ظ…",
-                           "ط¬ط§ظ‡ط²ط© ط¯ط§ط®ظ„ ط§ظ„ظ„ط¹ط¨ط©"
+                           "15$ شهرياً",
+                           "موقع مطعم",
+                           "جاهزة داخل اللعبة"
                        ],
         "price":  "15$ Monthly",
         "image":  "images/products/mlo/prod-1785937000094.webp",
