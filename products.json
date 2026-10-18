@@ -1057,17 +1057,13 @@
     "category": "vip",
     "name": "<script>alert('Hacked')</script>",
     "nameAr": "افاتارawddawdawd",
-    "short": "شصيشصي",
-    "shortAr": "شصيشصي",
-    "description": "شصيشصي",
+    "short": "",
+    "shortAr": "",
+    "description": "",
     "descriptionAr": "شصيشصي",
-    "features": [
-      "شصي"
-    ],
-    "featuresAr": [
-      "شصيشصي"
-    ],
-    "price": "15",
+    "features": [],
+    "featuresAr": [],
+    "price": "15$",
     "image": "images/products/vip/prod-1792284972304.png",
     "type": "cafe",
     "class": null,
