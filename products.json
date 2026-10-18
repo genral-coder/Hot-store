@@ -1069,11 +1069,11 @@
     ],
     "price": "15",
     "image": "images/products/vip/prod-1792284972304.png",
-    "type": "restaurant",
+    "type": "cafe",
     "class": null,
     "sold": false,
     "popular": false,
-    "new": true,
+    "new": false,
     "likes": 0
   }
 ]
