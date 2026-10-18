@@ -1069,7 +1069,7 @@
     "class": null,
     "sold": false,
     "popular": false,
-    "new": false,
+    "new": true,
     "likes": 0
   }
 ]
