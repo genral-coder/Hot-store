@@ -1051,25 +1051,5 @@
     "sold": false,
     "popular": false,
     "likes": 0
-  },
-  {
-    "id": 40,
-    "category": "vip",
-    "name": "<script>alert('Hacked')</script>",
-    "nameAr": "افاتارawddawdawd",
-    "short": "",
-    "shortAr": "",
-    "description": "",
-    "descriptionAr": "شصيشصي",
-    "features": [],
-    "featuresAr": [],
-    "price": "15$",
-    "image": "images/products/vip/prod-1792284972304.png",
-    "type": "cafe",
-    "class": null,
-    "sold": false,
-    "popular": false,
-    "new": true,
-    "likes": 0
   }
 ]
